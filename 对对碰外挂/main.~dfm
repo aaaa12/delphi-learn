@@ -98,7 +98,7 @@ object MainForm: TMainForm
   end
   object btnPorc: TButton
     Left = 143
-    Top = 86
+    Top = 91
     Width = 99
     Height = 29
     Caption = 'btnPorc'

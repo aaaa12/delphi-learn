@@ -235,8 +235,7 @@ begin
   showMessage('GamePid:'+IntToStr(GamePid));
 
   //句柄用于管理Windows内核对象
-  //nPrcoHandle:13832458
-  //gamehProcess:1032
+  //
 
   SendMessage(nPrcoHandle, Messages.WM_LBUTTONDOWN, 0, $02170214); //按下
   SendMessage(nPrcoHandle, Messages.WM_LBUTTONUP, 0, $02170214); //抬起

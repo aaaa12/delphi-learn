@@ -20,6 +20,7 @@ type
     btnClearOnce: TButton;
     edtSeatNo: TEdit;
     btnPorc: TButton;
+    lbl1: TLabel;
     procedure btnZbClick(Sender: TObject);
     procedure btnJhClick(Sender: TObject);
     procedure btnAClick(Sender: TObject);
